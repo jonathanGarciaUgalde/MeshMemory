@@ -10,6 +10,7 @@ using namespace std;
 
 class xCliente {
 public:
+
 	xCliente();
 	virtual ~xCliente();
 	void crearSocket();

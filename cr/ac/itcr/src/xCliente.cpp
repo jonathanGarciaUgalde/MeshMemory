@@ -58,7 +58,7 @@ void xCliente::getMensaje(){
                 cout << "Esperando recibir datos..."<< endl;
     		bytes_recieved = recv(socketfd, incomming_data_buffer,1000, 0);
                 cout << "Esperando recibir datos..."<< endl;
-    		// If no data arrives, the program will just wait here until some data arrives.
+
     		if (bytes_recieved == 0) cout << "host shut down." << endl ;
     		if (bytes_recieved == -1)cout << "recieve error!" << endl ;
     		cout << bytes_recieved << " bytes recibidos :" << endl ;
