@@ -13,7 +13,7 @@
 class API {
     
 private:    
-    const char* token;
+    const char* token;//eduardo no  proporciono el hilo para la conexion
     const char* Host;
     const char* Port;
     xReference<int> xIntR;
