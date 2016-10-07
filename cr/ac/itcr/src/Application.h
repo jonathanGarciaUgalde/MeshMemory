@@ -10,10 +10,7 @@
 #include "xCliente.h"
 #include "LinkedList.h"
 #include "enumValues.h"
-#include "../rapidjson/prettywriter.h"
-#include "../rapidjson/document.h"
-#include "../rapidjson/writer.h"
-#include "../rapidjson/stringbuffer.h"
+
 
 using namespace std;
 

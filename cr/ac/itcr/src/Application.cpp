@@ -1,6 +1,7 @@
 
 #include "Application.h"
 xCliente *cliente = new xCliente();
+
 LinkedList<void*>* referencias = new LinkedList<void*>();
 
 Application::Application()
