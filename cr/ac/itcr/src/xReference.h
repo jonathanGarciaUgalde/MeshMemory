@@ -8,6 +8,7 @@
 template<class T>
 class xReference{
     private:
+    //se realiza un  cambio al xReference
         T num1;
         T _ID;
         T _size;
